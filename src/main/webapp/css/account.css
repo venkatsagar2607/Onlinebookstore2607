@@ -1,0 +1,71 @@
+@charset "ISO-8859-1";
+        body {
+    background: url("../images/bg.svg") center/cover no-repeat fixed;
+    background-image: url("back1.jpeg");
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+    background: #e59285;
+}
+
+.profile-button:focus {
+    background: #e59285;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #682773;
+    box-shadow: none
+}
+.btn {
+  display: inline-block;
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: 200;
+  font-size: 1rem;
+  background:  linear-gradient(to bottom, rgb(64, 0, 0) 50%, rgb(128, 64, 0));
+  box-shadow: var(--box-shadow-1);
+}
+.btn:hover{
+color:rgb(255, 255, 255);
+}
+
+.back:hover {
+    color: #682773;
+    cursor: pointer
+}
+
+.labels {
+    font-size: 11px
+}
+.btn-save{
+  border-radius: 0.5rem;
+  color: white;
+  padding-left:20px;
+  padding-right:20px;
+  font-weight: 200;
+  font-size: 1.5rem;
+  background:  linear-gradient(to bottom, rgb(64, 0, 0) 50%, rgb(128, 64, 0));
+  display:none;
+}
+.btn-save:hover{
+color:white;
+}
+
+.add-experience:hover {
+    background: #BA68C8;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+}
